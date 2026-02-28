@@ -11,8 +11,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Graphic from './components/work/graphic/graphic';
-import Software from './components/work/software/software';
-import Apps from './components/work/apps/apps';
 
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
