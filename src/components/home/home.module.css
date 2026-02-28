@@ -1,0 +1,50 @@
+.homeBg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    /* transform: translateX(-200%); */
+    /* opacity: 0; */
+    transition: all 1s ease-in-out;
+/* animation: 1s ease-in  1 normal both running showIn; */
+}
+.content{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right:0;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    z-index: 0;
+    /* background-image: url("../../assets/img_bg_1-PzvG2r05.jpg"); */
+}
+@media screen and (max-width:567px) {
+    .content{
+        width: 100%;
+    }
+}
+.fadeIn{
+    animation: 1s ease-in 1s 1 normal both running showIn !important;
+    
+     
+     opacity: 1;
+}
+.fadeOut{
+    /* animation: 1s ease-out 0s 1 reverse both running showIn !important; */
+    /* opacity: 0; */
+
+
+}
+
+@keyframes showIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+}

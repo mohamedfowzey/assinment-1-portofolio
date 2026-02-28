@@ -1,0 +1,50 @@
+
+.sideBarContainer {
+  background-color: #f5f5f5;
+  transition: all 0.3s ease-in-out;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.mainContent {
+  background-color:white;
+
+  min-height: 100vh;
+}
+
+.menuIcon{
+  display: none !important;
+}
+
+@media screen and (max-width: 576px) {
+  .sideBarContainer {
+    position: fixed;
+    width: fit-content !important;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    transform: translateX(-100%);
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    background-color: white;
+  }
+  .active {
+    transform: translateX(0);
+  }
+  .menuIcon{
+    display: block !important;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    /* background-color: black; */
+    cursor: pointer;
+    z-index: 2;
+  }
+  .hide{
+  display: none !important;
+  color: transparent;
+}
+}

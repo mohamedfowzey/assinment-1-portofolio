@@ -1,0 +1,75 @@
+.sideBarContainer {
+  color: #4c4c4c;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 40px 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.profile h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.profile p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile p a {
+  color: #007bff;
+  text-decoration: none;
+}
+.menu {
+  width: 100%;
+  text-align: center;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu ul li {
+  padding: 10px 0;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #4c4c4c;
+  display: inline-block;
+  width: fit-content;
+}
+.menu ul li.active a {
+  color: #007bff;
+}
+.menu ul li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #007bff;
+  transition: all 0.3s ease;
+  transform: scale(0);
+}
+.menu ul li a:hover::after {
+  width: 100%;
+  transform: scale(1);}
+@media screen and (max-width: 576px) {
+  .sideBarContainer {
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,78 @@
+.aboutContainer{
+/* background-color: rgb(235, 235, 235); */
+}
+p{
+        font-family: Quicksand, Arial, sans-serif;
+    font-size: 10px;
+}
+h1{
+        font-family: Playfair Display, Georgia, serif;
+
+}
+.aboutHeading {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: Playfair Display, Georgia, serif;
+}
+.aboutTitle {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+} 
+.aboutText {
+    margin-bottom: 1.5em;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #00000093;
+}
+.skillsSection{
+    color :red;
+}
+.skillBox{
+    margin:2rem 0.1rem;
+    /* text-align: center; */
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+    box-shadow: 0 0 56px -8px #0000002b;
+
+}
+.skillBox h4{
+        font-family: Quicksand, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 0.5rem;
+        color: #000;
+}
+
+.skillBox.one{
+    color: #2c98f0;
+    border-bottom: 3px solid #2c98f0;
+}
+.skillBox.three{
+    color: #f0a12c;
+    border-bottom: 3px solid #f0a12c;
+}
+.skillBox.two{
+    color: #f02c2c;
+    border-bottom: 3px solid #f02c2c;
+}
+.skillBox.four{
+    color: #a84cb8;
+    border-bottom: 3px solid #a84cb8;
+}
