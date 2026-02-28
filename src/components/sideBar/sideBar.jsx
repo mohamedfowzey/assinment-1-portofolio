@@ -1,7 +1,7 @@
 // import profile from "../../assets/react.svg";
 import { Link } from "react-router-dom";
 import styles from "./sideBar.module.css";
-import profile from "../../assets/about-bgAkqdr2.jpg";
+import profile from "../../assets/about-BgAkqdr2.jpg";
 
 const SideBar = ({toggleMenu}) => {
   return <>
